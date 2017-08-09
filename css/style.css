@@ -74,6 +74,7 @@ h2{
 /*images*/
 
 .hero{
+  height: 40%;
   margin-top: 1.5em;
 }
 
@@ -108,4 +109,11 @@ figure:nth-last-of-type(2){
 
 figure:last-of-type{
   margin-left: 10px;
+}
+
+footer{
+  border-top: 1px solid #7d97ad;
+  color: #7d97ad;
+  width: 100%;
+  margin-top: 3em;
 }
