@@ -1,92 +1,111 @@
-html{
-  width: 100%;
-}
 
+/*font rendering*/
+
+html{
+  font-family: "Muli", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
 
 body{
   display: flex;
-  /*background-color: lavender;*/
+  flex-direction: column;
   margin: auto;
   max-width: 1120px;
-  background-color: white;
-  flex-direction: column;
-
+  padding: 20px;
 }
+
+
+/*responsive width*/
+html,
+.nav,
+.hero,
+.image-wrapper
+figure img{
+  width: 100%;
+}
+
+
+/*top navigation*/
+nav {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #7d97ad;
+  height: auto;
+  padding: 1em 0;
+}
+
 .logo{
  display: flex;
  height: 3em;
- justify-content: flex-start;
-}
-
-nav {
-  display:flex;
-  width: 100%;
-  align-items: center;
-  /*background-color: lavender;*/
-  border-bottom: 2px solid #7d97ad;
-  height: auto;
 }
 
 .right-nav{
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  justify-content: flex-end;
-  width: auto;
   text-align: right;
-  /*background-color: red;*/
-  padding: 1em 0;
 }
 
-.hero{
-  width:100%;
-}
 
+/*titles*/
+h1, h3{
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #2d3c49;
+  margin: 0;
+}
 
 h1{
   font-size: 2em;
-  line-height: normal;
-  margin: 0;
+  font-weight: lighter;
 }
 
-h3{
-  margin: 0;
-  font-size: 1.5em;
-  color:#7d97ad;
-}
-
-figure img{
-  height: auto;
-  width: 100%;
-  margin: 0;
+h2{
+  font-size: 1.2em;
+  margin-bottom: 0.25em;
 }
 
 .section-title{
-  padding: 1em 0;
+  font-size: 1.5em;
+  color: #7d97ad;
+  margin: 1.5em 0 0.7em  0;
+}
+
+/*images*/
+
+.hero{
+  margin-top: 1.5em;
 }
 
 .image-wrapper{
   display: flex;
-  width: 100%;
-  justify-content: space-between;
   align-items: center;
-  background-color: lavender;
 }
 
 figure{
-  margin: 0;
+  position: relative;
   display: inline-flex;
   flex-direction: column;
+  height: auto;
+  margin: 0;
+  vertical-align: center;
+  transition: color 582ms, cubic-bezier(0.333242, 0.0554191, 0.339599, 1);
+}
+
+figure:hover{
+  cursor: pointer;
+  color:#02b3e4;
+  transition: none;
 }
 
 figure:first-of-type{
-  padding-right: 10px;
+  margin-right: 10px;
 }
 
 figure:nth-last-of-type(2){
-  padding: 0 5px;
+  margin: 0 5px;
 }
 
 figure:last-of-type{
-  padding-left: 10px;
+  margin-left: 10px;
 }
