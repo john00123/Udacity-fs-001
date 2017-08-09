@@ -14,6 +14,7 @@ body{
 }
 .logo{
  display: flex;
+ height: 3em;
  justify-content: flex-start;
 }
 
@@ -23,7 +24,7 @@ nav {
   align-items: center;
   background-color: lavender;
   border-bottom: 2px solid #7d97ad;
-  height: 140px;
+  height: auto;
 }
 
 .right-nav{
@@ -40,38 +41,38 @@ nav {
   width:100%;
 }
 
+
+h1{
+  font-size: 2em;
+  line-height: normal;
+}
 h3{
-  font-size: 30px;
+  font-size: 1.5em;
   color:#7d97ad;
 }
 
 figure img{
-  height: 200px;
+  height: auto;
   width: 100%;
   margin: 0;
 }
 
 .image-wrapper{
-  display: inline-flex;
+  display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
   background-color: lavender;
-  padding: 0;
-  margin: 0;
 }
 
 figure{
   margin: 0;
-  background-color: red;
   display: inline-flex;
-  flex-shrink: 1;
   flex-direction: column;
-  padding: 0;
 }
 
 figure:first-of-type{
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 figure:nth-last-of-type(2){
@@ -79,5 +80,5 @@ figure:nth-last-of-type(2){
 }
 
 figure:last-of-type{
-  padding-left: 5px;
+  padding-left: 10px;
 }
