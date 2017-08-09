@@ -5,7 +5,7 @@ html{
 
 body{
   display: flex;
-  background-color: lavender;
+  /*background-color: lavender;*/
   margin: auto;
   max-width: 1120px;
   background-color: white;
@@ -22,7 +22,7 @@ nav {
   display:flex;
   width: 100%;
   align-items: center;
-  background-color: lavender;
+  /*background-color: lavender;*/
   border-bottom: 2px solid #7d97ad;
   height: auto;
 }
@@ -34,7 +34,7 @@ nav {
   justify-content: flex-end;
   width: auto;
   text-align: right;
-  background-color: red;
+  /*background-color: red;*/
   padding: 1em 0;
 }
 
