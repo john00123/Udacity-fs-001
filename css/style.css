@@ -1,40 +1,44 @@
 
+
+
 html{
-  display: flex;
-  justify-content: center;
+  background-color:#f3f4f5;
 }
 
-html,
 body{
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  width:100%;
+  height:100vh;
+  margin:auto;
+  background-color:lavender;
 }
 
-header{
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 30px;
-  background-color: lightgray;
+header,
+.hero{
+  padding:20px;
+  background-color:wheat;
+  width:1120px;
+  box-sizing: border-box;
 }
 
-article{
-  width: 960px;
+/* centers content */
+.centered{
+  display:flex;
+  justify-content:center;
 }
 
-.boxes{
-  background-color: wheat;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: auto;
+.hero{
+ justify-content:flex-start;
+ align-items:center;
+ height:600px;
+ padding:80px;
+ box-sizing:border-box;
+ background-size:cover;
+ background-image:
+    url('https://raw.githubusercontent.com/john00123/Udacity-fs-001/master/img/beach.jpg');
 }
 
-.box{
-  width: calc(20%);
-  height: 264px;
-  background-color: lavender;
+h1 {
+  color: white;
+  font: 32px/120% Helvetica, sans-serif;
+  font-weight: 100;
 }
