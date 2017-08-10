@@ -7,3 +7,6 @@ This is part of the Full Stack Developer project. Was provided with a design moc
 - The website must reference on the mockup but some modifications have to be made.
 - The website must be responsive and be able to be viewed properly on devices, including: `Nexus 5` and `iPad`.
 - Has to be able to pass all validation from W3C in HTML and CSS
+
+##### Additional information
+The project can be accessed in [udacity-fs-001](http://john00123.github.com/Udacity-fs-001)
