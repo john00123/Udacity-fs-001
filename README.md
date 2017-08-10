@@ -8,7 +8,9 @@ No functionality has been added for this task other than hover effects on the so
 ``` 
 <figure>
       <img src="img/blue-l.png" alt="blue rollercoaster">
-      <figcaption><h2>Bananfy</h2>An app about bananas.</figcaption>
+      <figcaption>
+            <h2>Bananfy</h2>An app about bananas.
+      </figcaption>
 </figure>
 ```
 ```
