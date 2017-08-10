@@ -4,7 +4,8 @@
 This is part of the Full Stack Developer project. Given a pdf mockup of a website designer translate it to a real website using HTML and CSS skills learned during the program.
 
 ###### Code example
-The is not extra functionality added other than making it fully responsive and adding some effects on hover.
-- George Washington
-- John Adams
-- Thomas Jefferson
+No functionality has been added for this task other than hover effects on the some classes. 
+'''  <div class="right-nav">
+      <h1> Jane Doette </h1>
+      <h3> Front-end Ninja </h3>
+    </div>'''
