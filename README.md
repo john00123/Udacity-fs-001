@@ -1,7 +1,8 @@
-# The largest heading
-## The second largest heading
-###### The smallest heading
-This is part of the Full Stack Developer project. The main idea is to recreate a website using a reference they've provided in pdf format. 
+# Udacity FullStack Developer Nanodegree Program
+## Programming Fundamentals
+###### Buil a porfolio site
+This is part of the Full Stack Developer project. Given a pdf mockup of a website designer translate it to a real website using HTML and CSS skills learned during the program.
+
 
 The is not extra functionality added other than making it fully responsive and adding some effects on hover.
 - George Washington
