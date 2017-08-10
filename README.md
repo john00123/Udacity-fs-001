@@ -17,5 +17,4 @@ figure:hover {
   color:#02b3e4;
   transition: none;
 }
-
 ```
