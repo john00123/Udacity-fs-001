@@ -80,7 +80,7 @@ h2 {
 
 .image-wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 figure {
